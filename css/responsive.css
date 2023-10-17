@@ -1,0 +1,24 @@
+@media screen and (max-width:575px) {
+    .header_contents {
+        margin: 35px 16px 0px 16px;
+    }
+
+    .logo {
+        /* gap:50%; */
+        width: 80%;
+        justify-content: space-between;
+        border: 1px solid red;
+    }
+
+    .logo h1 {
+        text-align: center;
+    }
+
+    .logo .nav_left {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+}
