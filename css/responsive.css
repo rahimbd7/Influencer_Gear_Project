@@ -1,17 +1,16 @@
+/* Mobile device style */
 @media screen and (max-width:575px) {
+
+
+    /* Navbar  Style */
+
     .header_contents {
         margin: 35px 16px 0px 16px;
     }
 
     .logo {
-        /* gap:50%; */
         width: 80%;
         justify-content: space-between;
-        border: 1px solid red;
-    }
-
-    .logo h1 {
-        text-align: center;
     }
 
     .logo .nav_left {
@@ -20,5 +19,73 @@
 
     .menu {
         display: none;
+    }
+
+    /* Banner style */
+
+    .banner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column-reverse;
+        padding-top: 0px;
+        padding-bottom: 0x;
+        text-align: center; 
+    }
+
+    .banner_contents {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner_contents h1 {
+        color: #3A3A3A;
+        font-family: Poppins;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 80%;
+
+    }
+
+    .banner_contents p {
+        color: #3A3A3A;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        width: 85%;
+
+    }
+
+}
+
+
+
+
+
+
+
+/* Medium device styles */
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    /* Navbar Style */
+    .header_contents {
+        margin: 35px 16px 0px 16px;
+    }
+
+    /* Banner Style */
+    .banner_contents h1 {
+        width: auto;
+        font-size: 28px;
+    }
+
+    .banner_contents p {
+        font-size: 14px;
     }
 }
