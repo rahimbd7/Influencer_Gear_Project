@@ -29,8 +29,8 @@
         align-items: center;
         flex-direction: column-reverse;
         padding-top: 0px;
-        padding-bottom: 0x;
-        text-align: center; 
+        padding-bottom: 50px;
+        text-align: center;
     }
 
     .banner_contents {
@@ -60,9 +60,91 @@
         font-weight: 500;
         line-height: normal;
         width: 85%;
+    }
+
+    /* company logo style */
+    .company {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0 5%;
+        padding: 0;
+        gap: 30px;
+        border: none;
+    }
+
+    .company img {
+        width: 14%;
+    }
+
+    /* Popular collection */
+
+    .popular_collection {
+        margin: 0px 16px 0px 16px;
+    }
+
+    .items {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+    .item p br:nth-child(1) {
+        display: none;
+    }
+
+    /* features section */
+    .feature {
+        margin: 15px;
+        gap: 0px;
+        flex-direction: column-reverse;
+    }
+
+    .feature img {
+        width: 90%;
+    }
+
+    .feature_details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 30px;
 
     }
 
+    .feature_details h1 {
+        color: #0A0826;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        width: 78%;
+    }
+
+    .feature_details p {
+        width: 78%;
+        text-align: center;
+
+    }
+
+    /* Footer section style */
+    .footer h1 {
+        font-size: 16px;
+    }
+
+    .footer p,
+    .footer i {
+        font-size: 12px;
+    }
+
+    .footer i {
+        margin: 7px;
+    }
 }
 
 
@@ -87,5 +169,25 @@
 
     .banner_contents p {
         font-size: 14px;
+    }
+
+    /* Popular collection */
+    .popular_collection {
+        margin: 0px 16px 0px 16px;
+    }
+
+    .items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    /* Features section style */
+    .feature {
+        margin: 15px 15px 100px 15px;
+    }
+
+    .feature_details p {
+        width: 100%;
     }
 }

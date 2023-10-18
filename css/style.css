@@ -124,7 +124,7 @@ nav {
 
 .prebook {
     padding: 10px 24px;
-    border-radius: 41px;  
+    border-radius: 41px;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
@@ -134,4 +134,198 @@ nav {
 
 .fa-arrow-right {
     margin: 3px 0px 0px 8px
+}
+
+/* Company logo styles */
+
+.company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 165px;
+    border-top: 2px solid gray;
+    padding-top: 33px;
+}
+
+.company img {
+    width: 10%;
+}
+
+
+/* Popular collection */
+
+.popular_collection {
+    margin: 100px 196px 174px 196px;
+
+}
+
+.collection_title {
+    text-align: center;
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+.collection_title h1 {
+    margin-bottom: 30px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.item {
+    padding: 14px;
+    object-fit: contain;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+.item h4 {
+    color: #18191F;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 16px 0px 6px 0px;
+}
+
+.item h6 {
+    color: var(--Dark-Color, rgba(0, 0, 0, 0.87));
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 6px 0px 8px 0px;
+}
+
+.price {
+    display: flex;
+}
+
+.star {
+    margin-right: 10px;
+    color: #FB8200;
+}
+
+.items img {
+    /* width: 20%; */
+}
+
+.item p {
+    color: #787885;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 0.252px;
+    /* width: 10%; */
+}
+
+.see {
+    text-align: right;
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+}
+
+.see .fa-arrow-right {
+    margin: 3px 0px 0px 8px
+}
+
+
+/* Features styles */
+
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+    margin: 0 0 100px 165px;
+}
+
+.joinNow {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 8px 24px
+}
+
+.feature img {
+    width: 50%;
+}
+
+.feature_details h1 {
+    color: #0A0826;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.feature_details p {
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    width: 50%;
+}
+
+
+/* Footer section */
+
+.footer {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #0A0826;
+    color: #fff;
+}
+
+.footer h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer p {
+    color: #D9DBE1;
+    font-feature-settings: 'liga' off;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+.footer i {
+    color: #D9DBE1;
+    margin: 16px;
+    padding: 10px;
+    background-color: #22213C;
+    border-radius: 50%;
+    font-size: 24px;
 }
